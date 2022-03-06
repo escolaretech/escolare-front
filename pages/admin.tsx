@@ -16,7 +16,7 @@ const Admin: NextPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3007/products")
+      .get(`${process.env.NEXT_PUBLIC_API_HOST}/products`)
       .then((result) => {
         const { data } = result;
 
@@ -27,7 +27,7 @@ const Admin: NextPage = () => {
       });
 
     axios
-      .get("http://localhost:3007/categorywithproducts")
+      .get(`${process.env.NEXT_PUBLIC_API_HOST}/categorywithproducts`)
       .then((result) => {
         const { data } = result;
 

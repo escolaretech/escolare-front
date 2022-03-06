@@ -50,7 +50,7 @@ export default function ProductModal() {
   useEffect(() => {
     if (productModal) {
       axios
-        .get(`http://localhost:3007/products/${productModal}`)
+        .get(`${process.env.NEXT_PUBLIC_API_HOST}/products/${productModal}`)
         .then((result) => {
           const { data } = result;
 

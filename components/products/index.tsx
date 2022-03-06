@@ -10,7 +10,7 @@ const Products = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3007/categorywithproducts")
+      .get(`${process.env.NEXT_PUBLIC_API_HOST}/categorywithproducts`)
       .then((result) => {
         const { data } = result;
 

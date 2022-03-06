@@ -37,7 +37,7 @@ export default function ShoppingCart() {
     setIsLoading(true);
 
     axios
-      .post(`http://localhost:3007/order`, {
+      .post(`${process.env.NEXT_PUBLIC_API_HOST}/order`, {
         clientName,
         clientMail,
         products: sanCart,
