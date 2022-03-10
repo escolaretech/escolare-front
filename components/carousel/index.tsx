@@ -10,7 +10,7 @@ const Carousel: NextPage = () => {
     <div className="carousel rounded relative overflow-hidden">
       <div className="carousel-inner relative overflow-hidden w-full">
         <input
-          className="carousel-open"
+          className="carousel-open hidden"
           type="radio"
           id="carousel-1"
           name="carousel"
@@ -88,7 +88,7 @@ const Carousel: NextPage = () => {
         </label>
 
         <input
-          className="carousel-open"
+          className="carousel-open hidden"
           type="radio"
           id="carousel-2"
           name="carousel"
@@ -163,7 +163,7 @@ const Carousel: NextPage = () => {
         </label>
 
         <input
-          className="carousel-open"
+          className="carousel-open hidden"
           type="radio"
           id="carousel-3"
           name="carousel"
