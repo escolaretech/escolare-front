@@ -341,11 +341,11 @@ const Home: NextPage = () => {
         <div className="bg-indigo-600 w-full">
           <p className="flex items-center h-10 space-x-3 text-sm font-medium text-gray-50 max-w-7xl mx-auto px-4 w-full">
             <a
-              href="https://wa.me/5534991581333"
+              href="https://wa.me/5534993401235"
               target="_blank"
               rel="noreferrer"
             >
-              WhatsApp: (18) 9 9877-4562
+              WhatsApp: (34) 9 9340-1235
             </a>
           </p>
         </div>
