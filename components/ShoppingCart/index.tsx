@@ -138,7 +138,7 @@ export default function ShoppingCart() {
                                     </p>
                                   </div>
                                   <p className="mt-1 text-sm text-gray-500">
-                                    {product?.category.nome}
+                                    {product?.category?.nome || "sem categoria"}
                                   </p>
                                 </div>
                                 <div className="flex-1 flex items-end justify-between text-sm">

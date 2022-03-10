@@ -170,7 +170,7 @@ export default function ProductModal() {
                             <h4 className="text-sm text-gray-900 font-medium">
                               Categoria:
                             </h4>
-                            <p>{product?.category.nome}</p>
+                            <p>{product?.category?.nome || "sem categoria"}</p>
                           </div>
                         </div>
 
